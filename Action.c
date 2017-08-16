@@ -382,7 +382,7 @@ static Htop_Reaction actionRedraw() {
 }
 
 static struct { const char* key; const char* info; } helpLeft[] = {
-   { .key = "   hjkl: ", .info = "scroll process list" },
+   { .key = "   ijkl: ", .info = "scroll process list" },
    { .key = " Digits: ", .info = "incremental PID search" },
    { .key = "   F3 /: ", .info = "incremental name search" },
    { .key = "   F4 \\: ",.info = "incremental name filtering" },

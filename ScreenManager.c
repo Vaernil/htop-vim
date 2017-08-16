@@ -279,7 +279,7 @@ void ScreenManager_run(ScreenManager* this, Panel** lastFocus, int* lastKey) {
          continue;
       }
       case KEY_LEFT:
-      case 'h':
+      case 'j':
          if (this->panelCount < 2) {
             goto defaultHandler;
          }

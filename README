@@ -29,11 +29,11 @@ These are the keybindings added in this fork of htop:
 
   <C-u>      up 1/2 page
 
+    i
+
+j       l    one character
+
     k
-
-h       l    one character
-
-    j
 
   <C-d>      down 1/2 page
 
