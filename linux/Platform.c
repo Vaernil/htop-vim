@@ -105,7 +105,7 @@ static Htop_Reaction Platform_actionSetIOPriority(State* st) {
 }
 
 void Platform_setBindings(Htop_Action* keys) {
-   keys['i'] = Platform_actionSetIOPriority;
+   keys['O'] = Platform_actionSetIOPriority;
 }
 
 MeterClass* Platform_meterTypes[] = {

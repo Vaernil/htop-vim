@@ -410,7 +410,7 @@ static struct { const char* key; const char* info; } helpRight[] = {
    { .key = "      a: ", .info = "set CPU affinity" },
 #endif
    { .key = "      e: ", .info = "show process environment" },
-   { .key = "      i: ", .info = "set IO priority" },
+   { .key = "      O: ", .info = "set IO priority" },
    { .key = "      L: ", .info = "list open files with lsof" },
    { .key = "      s: ", .info = "trace syscalls with strace" },
    { .key = "         ", .info = "" },
@@ -568,6 +568,7 @@ void Action_setBindings(Htop_Action* keys) {
    keys['\014'] = actionRedraw; // Ctrl+L
    keys[KEY_F(1)] = actionHelp;
    keys['?'] = actionHelp;
+   keys['h'] = actionHelp;
    keys['U'] = actionUntagAll;
    keys['c'] = actionTagAllChildren;
    keys['e'] = actionShowEnvScreen;
