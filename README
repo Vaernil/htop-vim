@@ -20,7 +20,8 @@ and is reasonably complete, but there is always room for improvement.
 Vim keybindings
 ----------------
 
-These are the keybindings added in this fork of htop:
+Navigation uses inverted T (ijkl), because I hate the vi's standard hjkl, makes no sense on a modern keyboard.
+These are all the keybindings added in this fork of a fork of htop:
 
 ```
     g        to the top (gg in vim)
@@ -44,13 +45,13 @@ j       l    one character
 --------------------------------------------------
 
     o        Expand/collapse (like in NERDTree)
+    O		 Set IO Priority
 ```
 
 In order to accomodate these keybindings, the following changes
 were made to the original keybindings:
 
 * Ctrl+F and Ctrt+B can now longer be used to navigate horizontally
-* 'h' can no longer be used to access the help, leaving Ctrl+F1 & '?'
 * 'k' can no longer be used to kill processes, being replaced with 'x'
 * 'l' can no longer be used to list open files, being replaced with 'L'
 
